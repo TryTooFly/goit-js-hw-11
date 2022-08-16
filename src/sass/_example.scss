@@ -31,13 +31,17 @@
   padding-top: 15px;
   padding-bottom: 15px;
   display: flex;
-  background-color: darkblue;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
   justify-content: center;
 
 }
 
 input{
   margin-right: 20px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
 }
 .search-btn{
   cursor: pointer;
