@@ -26,3 +26,52 @@
   background-size: cover;
   background-position: center;
 }
+
+.search-form{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  background-color: darkblue;
+  justify-content: center;
+
+}
+
+input{
+  margin-right: 20px;
+}
+.search-btn{
+  cursor: pointer;
+}
+
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  // grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  // grid-auto-rows: 240px;
+  // grid-gap: 12px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo-card{
+  margin: 10px;
+}
+
+.hidden{
+  opacity:0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.load-more{
+  cursor: pointer;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: darkblue;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}
